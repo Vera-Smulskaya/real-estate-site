@@ -1,0 +1,27 @@
+.link-property {
+  text-decoration: none;
+}
+
+.back-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 16px;
+  height: 26px;
+  max-width: 1094px;
+  margin: 0px auto 42px 0px;
+  color: #4d4f52;
+  font-size: 24px;
+  width: 220px;
+  border: 2px solid#74777C;
+  border-radius: 4px;
+  background-color: #f1f3f6;
+}
+
+.back-btn:hover {
+  box-shadow: 3px 2px 3px -1px rgba(114, 117, 150, 1);
+}
+
+.back-btn svg {
+  margin-right: 10px;
+}

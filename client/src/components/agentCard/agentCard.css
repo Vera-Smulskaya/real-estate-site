@@ -1,0 +1,67 @@
+.agent__section {
+  padding-top: 100px;
+  padding-bottom: 150px;
+  color: #4d4f52;
+  width: 100%;
+}
+.agent__card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  height: 470px;
+  border: 1px solid #e4e4e4;
+}
+
+.agent__photo {
+  width: 220px;
+  height: 220px;
+
+  background-image: url(./agent-placeholder.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.agent__photo--img {
+  height: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.agent__name {
+  font-size: 32px;
+  line-height: 39px;
+  padding: 30px 0 0 20px;
+  width: 200px;
+}
+.agent__location {
+  font-size: 16px;
+  font-style: italic;
+  line-height: 19px;
+  padding: 20px 0 0 20px;
+  width: 200px;
+}
+
+.agent__form {
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid #e4e4e4;
+  background-color: #f1f3f6;
+  width: 873px;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.agent__form_text {
+  font-style: italic;
+  font-size: 16px;
+  text-align: center;
+}
+
+.agent__form_thanks {
+  font-size: 32px;
+  display: block;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,12 @@
+.sidebar__container {
+  background-color: #f1f3f6;
+  margin: auto;
+  padding: 30px;
+  height: 100%;
+}
+
+.sidebar__filter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

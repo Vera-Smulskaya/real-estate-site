@@ -1,0 +1,13 @@
+.page__content {
+  margin: 0 auto;
+  width: 1094px;
+  padding-top: 36px;
+  padding-bottom: 64px;
+}
+
+.page__sidebar {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 2fr 1fr;
+  width: 100%;
+}

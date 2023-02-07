@@ -1,0 +1,59 @@
+.title__section {
+  margin-top: 110px;
+}
+
+.title__name {
+  display: flex;
+  justify-content: space-between;
+  font-style: normal;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 39px;
+  color: #df434a;
+}
+
+.title__location {
+  font-style: italic;
+  font-size: 18px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  color: #4d4f52;
+  margin-top: 4px;
+}
+
+.title__details {
+  display: flex;
+  font-style: normal;
+  font-size: 15px;
+  line-height: 18px;
+  color: #74777c;
+  align-items: baseline;
+}
+
+.details__type-card::after {
+  margin: 0 7px;
+  content: "|";
+  color: #e4e4e4;
+}
+
+.details__type-card {
+  margin-right: 7px;
+}
+
+.details__type-card path {
+  fill: #adb2b6;
+  fill-opacity: 1;
+}
+
+.details__type-card svg {
+  width: 22px;
+}
+
+.details__id-card {
+  margin-left: auto;
+}
+
+.details-list-item {
+  margin-right: 7px;
+}

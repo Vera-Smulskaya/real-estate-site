@@ -1,0 +1,25 @@
+.property-filter > .subtitle {
+  margin-top: 80px;
+}
+
+.property-filter__min-max-property {
+  display: flex;
+  justify-content: space-between;
+}
+
+.property-filter__list {
+  margin-bottom: -20px;
+}
+
+.property-filter__list > li {
+  margin-bottom: 20px;
+}
+
+.property-filter__mini-drop-down {
+  width: 49%;
+}
+
+.property-filter__search {
+  margin: 0 auto;
+  width: 150px;
+}

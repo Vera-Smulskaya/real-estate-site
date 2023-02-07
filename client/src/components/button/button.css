@@ -1,0 +1,38 @@
+.Btn {
+  text-align: center;
+  color: #74777c;
+  background-color: #ffffff;
+  border: 1px solid #74777c;
+  font-size: 16px;
+}
+
+.Btn__m_size {
+  height: 40px;
+  width: 40px;
+}
+
+.Btn__l_size {
+  height: 45px;
+  width: 150px;
+}
+
+.Btn__border-round-none {
+  border: none;
+}
+
+.Btn__border-round-left {
+  border-radius: 2px 0px 0px 2px;
+}
+
+.Btn__border-round-right {
+  border-radius: 0px 2px 2px 0px;
+}
+
+.Btn__border-round-both {
+  border-radius: 2px;
+}
+
+.Btn:disabled,
+.Btn:hover {
+  background-color: #f1f3f6;
+}

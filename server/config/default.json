@@ -1,0 +1,21 @@
+{
+  "emailConfig": {
+    "host": "smtp.ethereal.email",
+    "port": 587,
+    "secure": false,
+    "dbName": "customers",
+    "auth": {
+      "user": "maiya59@ethereal.email",
+      "pass": "cVjntXUmgy2Cz31rS6"
+    }
+  },
+  "managerEmail": "alex.roy.manager@gmail.com",
+  "database_url": "sqlite://db/main.db",
+  "port": 3100,
+  "google_client": {
+    "id": "",
+    "secret": ""
+  },
+  "app_host": "http://localhost:3000",
+  "session_secret": "🐱"
+}

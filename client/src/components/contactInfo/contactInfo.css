@@ -1,0 +1,31 @@
+.contact-info {
+  font-size: 15px;
+  line-height: 18px;
+  color: #74777c;
+}
+
+.contact-info__item {
+  display: flex;
+  color: #74777c;
+  align-items: center;
+}
+
+.contact__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  object-fit: none;
+}
+
+.framed {
+  border: 1px solid #4d4f52;
+  border-radius: 4px;
+}
+
+.footer-contact__info {
+  width: 274px;
+}

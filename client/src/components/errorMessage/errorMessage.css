@@ -1,0 +1,17 @@
+.error-message__block {
+  position: fixed;
+  background-color: red;
+  color: white;
+  margin: 50px;
+  padding: 20px;
+  top: 0px;
+  right: 0;
+  border-radius: 15px;
+}
+.error-message__block .Btn {
+  background: transparent;
+  color: white;
+  border: none;
+  font-weight: bold;
+  font-size: 24px;
+}

@@ -1,0 +1,36 @@
+.propertyList__section {
+  padding-bottom: 63px;
+  padding-top: 42px;
+  margin: auto;
+  flex-grow: 2;
+  position: relative;
+}
+
+.propertyList__section > .view-mode {
+  margin-bottom: 35px;
+}
+
+.propertyList__list {
+  margin-bottom: 80px;
+}
+
+.propertyList__list:empty::after {
+  content: "Sorry, there is no matching results 🤔";
+  position: absolute;
+  top: 50%;
+  left: -450%;
+  color: #4d4f52;
+  font-size: 30px;
+  width: 600px;
+  transform: translateY(-50%);
+}
+
+.propertyList__list.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 42px 42px;
+}
+
+.propertyList__list.list > li:not(:last-child) {
+  margin-bottom: 44px;
+}

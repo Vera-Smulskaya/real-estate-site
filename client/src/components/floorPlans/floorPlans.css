@@ -1,0 +1,45 @@
+.floorplan__section {
+  padding-bottom: 100px;
+}
+
+.floorplan__frame {
+  position: relative;
+  height: 614px;
+  overflow: hidden;
+  object-fit: contain;
+  object-position: 50% 50%;
+  background-image: url(./img-not-found.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 25px;
+}
+
+.floorplan__toggle {
+  line-height: 30px;
+  color: #74777c;
+
+  position: absolute;
+  top: 0;
+}
+
+.floorplan__menu {
+  display: flex;
+}
+
+.floorplan__menu-item.currentFloor {
+  color: #4d4f52;
+}
+.floorplan__menu-item:hover {
+  cursor: pointer;
+  background-color: #ffffff7c;
+}
+
+.floorplan__menu-item:not(:last-child) {
+  margin-right: 26px;
+}
+
+.floorplan__picture {
+  height: 100%;
+  margin: 0 auto;
+}

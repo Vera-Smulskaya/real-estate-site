@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "private": true,
+  "dependencies": {
+    "config": "^3.3.8",
+    "connect-session-sequelize": "^7.1.5",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "nodemailer": "^6.8.0",
+    "passport": "^0.6.0",
+    "passport-google-oauth2": "^0.2.0",
+    "sequelize": "^6.25.4",
+    "sequelize-cli": "^6.5.2",
+    "sqlite3": "^5.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "scripts": {
+    "start": "nodemon src/",
+    "serve": "node src/",
+    "db:migrate": "sequelize db:migrate",
+    "db:seed": "sequelize db:seed:all",
+    "prestart": "yarn db:migrate"
+  }
+}

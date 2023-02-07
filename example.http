@@ -1,0 +1,193 @@
+###
+GET http://localhost:3100/api/agents/17
+
+
+###
+GET http://localhost:3100/api/properties?agentEmail=nickexample003@gmail.com&page=2
+
+
+###
+GET http://localhost:3100/api/properties?agentEmail=olga@example.com&minPrice=200000
+
+
+###
+GET http://localhost:3100/api/properties/B1906
+
+
+###
+GET http://localhost:3100/api/properties?page=31
+
+
+###
+POST http://localhost:3100/api/agents/1/send-mail
+content-type: application/json
+
+{
+  "info": {
+    "name": "dfghjk",
+    "email": "g@example.com",
+    "message": "dfghjkl;",
+    "propertyId": "B1902"
+  }
+}
+
+
+###
+GET http://localhost:3100/api/properties/agent
+
+
+###
+GET http://localhost:3100/api/properties?manager=alex.roy.manager@gmail.com
+
+
+###
+GET http://localhost:3100/api/agents
+
+
+###
+POST http://localhost:3100/api/agents
+content-type: application/json
+
+{
+    "name": "JAJAJAJA",
+    "photo": "https://rieltory.in.ua/img/images/%D0%A4%D0%BE%D1%82%D0%BE%202.jpg",
+    "location": "Los Angeles, California",
+    "phone": "+0 123-456-7890",
+    "email": "adamexample001@gmail.com",
+    "createdAt": "2022-12-19T17:25:54.005Z",
+    "updatedAt": "2022-12-19T17:25:54.005Z"
+  }
+
+
+###
+POST http://localhost:3100/api/properties
+content-type: application/json
+
+{
+  "AgentId": 3,
+  "area": 2000,
+  "bathrooms": 3,
+  "bedrooms": 4,
+  "city": "Kyjiw",
+  "deal": "rent",
+  "description": "fazenda Gorgeous lot with impressive view to the lush jungle and mountains.This spectacular lot located just 5 minutes drive from Samara Beach, is ready for development. Its 360-degrees view of the lush jungle and mountains, makes it ideal for a residential or rental project.The land comes with an extensive variety of fruit plants: Mango, lemons, papaya, water apple, and many others.",
+  "preview": "https://my-dom.design/wp-content/uploads/2019/05/gostinaja-3-1.jpg",
+  "price": 450000,
+  "prop_id": "C12993",
+  "state": "UA!",
+  "title": "MYyyyyyyyyyy fazenda",
+  "type": "apartment",
+  "year": 2023,
+  "createdAt": "2022-12-19T17:25:54.005Z",
+  "updatedAt": "2022-12-19T17:25:54.005Z"
+  }
+
+
+###
+PUT http://localhost:3100/api/properties/1
+content-type: application/json
+
+{
+  "AgentId": 1,
+  "area": 1,
+  "bathrooms": 3,
+  "bedrooms": 4,
+  "city": "Kyjiw",
+  "deal": "rent",
+  "description": "fazenda Gorgeous lot with impressive view to the lush jungle and mountains.This spectacular lot located just 5 minutes drive from Samara Beach, is ready for development. Its 360-degrees view of the lush jungle and mountains, makes it ideal for a residential or rental project.The land comes with an extensive variety of fruit plants: Mango, lemons, papaya, water apple, and many others.",
+  "preview": "https://my-dom.design/wp-content/uploads/2019/05/gostinaja-3-1.jpg",
+  "price": 450000,
+  "prop_id": "A0001",
+  "state": "UA",
+  "title": "fazenda",
+  "type": "apartment",
+  "year": 2023,
+  "createdAt": "2022-12-19T17:25:54.005Z",
+  "updatedAt": "2022-12-19T17:25:54.005Z"
+  }
+
+
+###
+PUT http://localhost:3100/api/agents/1
+content-type: application/json
+
+{
+    "name": "Adam BOOOOO",
+    "photo": "https://rieltory.in.ua/img/images/%D0%A4%D0%BE%D1%82%D0%BE%202.jpg",
+    "location": "Sacramento, California",
+    "phone": "+0 123-456-7890",
+    "email": "adamexample001@ukr.net",
+    "createdAt": "2022-12-19T17:25:54.005Z",
+    "updatedAt": "2022-12-19T17:25:54.005Z"
+  }
+
+
+###
+DELETE http://localhost:3100/api/agents/1
+
+
+###
+DELETE http://localhost:3100/api/properties/7
+
+********PLANS:*********************
+
+###
+GET http://localhost:3100/api/properties/A0001/plans
+
+###
+POST http://localhost:3100/api/properties/A0001/plans
+content-type: application/json
+
+{
+    "name": "First Floor",
+    "url": "https://rieltory.in.ua/img/images/%D0%A4%D0%BE%D1%82%D0%BE%202.jpg",
+    "PropertyId": 1,
+    "createdAt": "2022-12-19T17:25:54.005Z",
+    "updatedAt": "2022-12-19T17:25:54.005Z"
+  }
+
+###
+PATCH http://localhost:3100/api/properties/A0001/plans/237
+content-type: application/json
+
+{
+    "name": "First Floor",
+    "url": "https://wpmedia.roomsketcher.com/content/uploads/2021/12/07133333/RoomSketcher-High-Quality-3D-Floor-Plans.jpg",
+    "PropertyId": 1,
+    "createdAt": "2022-12-19T17:25:54.005Z",
+    "updatedAt": "2022-12-19T17:25:54.005Z"
+  }
+
+###
+DELETE http://localhost:3100/api/properties/A0001/plans/238
+
+********IMAGES:*********************
+
+###
+GET http://localhost:3100/api/properties/B1930/images
+
+###
+POST http://localhost:3100/api/properties/B1930/images/129
+content-type: application/json
+
+{
+    "url": "https://www.pufikhomes.com/wp-content/uploads/2019/06/sovremennaya-belaya-kvartira-dlya-devushki-v-starom-dome-moskvy-pufikhomes-1.jpg",
+    "createdAt": "2022-01-12T16:12:54.005Z",
+    "updatedAt": "2022-01-12T16:12:54.005Z",
+    "PropertyId": 30
+  }
+
+###
+PATCH http://localhost:3100/api/properties/B1930/images/129
+content-type: application/json
+
+{
+    "url": "https://remont-f.ru/upload/resize_cache/iblock/675/1000_667_1c90dcf07c205e9d57687f52ee182d65f/remont-kvartiry-144-kv-m-foto-1-4217.jpg",
+    "createdAt": "2022-01-12T16:12:54.005Z",
+    "updatedAt": "2022-01-12T16:12:54.005Z",
+    "PropertyId": 30
+  }
+
+
+###  
+DELETE http://localhost:3100/api/properties/B1903/images/127

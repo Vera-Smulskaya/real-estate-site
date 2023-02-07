@@ -1,0 +1,13 @@
+.feature {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+  color: #74777c;
+}
+
+.feature__icon {
+  padding: 18px 9px 18px 18px;
+  width: 40px;
+}

@@ -1,0 +1,34 @@
+.footer {
+  background: #f1f3f6;
+}
+
+.footer__container {
+  padding: 50px 0px;
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1094px;
+}
+
+.footer__contact-info {
+  margin-left: 83px;
+}
+
+.contact-info__icon {
+  border: 1px solid #4d4f52;
+  border-radius: 4px;
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  object-fit: none;
+}
+
+.contact-info__title {
+  color: #4d4f52;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+
+.contact-info__list {
+  display: flex;
+}

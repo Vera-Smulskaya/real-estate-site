@@ -1,0 +1,19 @@
+.nav_header {
+  padding: 50px 0px;
+  display: flex;
+  align-items: flex-end;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1094px;
+}
+
+header {
+  background-image: url(./backdrop.jpg);
+  background-position: 0px auto;
+}
+
+.nav_text {
+  color: #ffffff;
+  margin-left: 30px;
+  font-size: 32px;
+}

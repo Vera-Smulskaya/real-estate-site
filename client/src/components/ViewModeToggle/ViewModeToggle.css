@@ -1,0 +1,19 @@
+.view-mode-text {
+  font-size: 16px;
+  color: #74777c;
+  padding-right: 12px;
+}
+
+.view-mode {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.view-mode > .Btn__border-round-left {
+  border-right: none;
+}
+
+.btn-icon {
+  vertical-align: middle;
+}

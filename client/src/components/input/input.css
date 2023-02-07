@@ -1,0 +1,25 @@
+.input {
+  box-sizing: border-box;
+  padding: 20px;
+  font-size: 20px;
+  color: #4d4f52;
+  border-radius: 4px;
+  border: 1px solid #74777c;
+  outline: none;
+}
+
+.input:not(:placeholder-shown) {
+  border-color: #4d4f52;
+}
+
+.input::placeholder {
+  color: #74777c88;
+}
+
+.input_small {
+  width: 45%;
+}
+
+.input_large {
+  width: 100%;
+}

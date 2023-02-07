@@ -1,0 +1,9 @@
+.form-error {
+  color: red;
+  font-size: 16px;
+  display: inline-block;
+  margin-top: 6px;
+  position: absolute;
+  bottom: -24px;
+  left: 0;
+}

@@ -1,0 +1,17 @@
+.amenity__status {
+  font-weight: 700;
+
+  line-height: 24px;
+  text-align: center;
+  color: #df434a;
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+}
+
+.amenity__title {
+  font-size: 16px;
+  line-height: 19px;
+  color: #74777c;
+  margin-left: 20px;
+}
